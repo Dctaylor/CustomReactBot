@@ -7,5 +7,12 @@
 Refer to https://nodejs.org/en/, https://discord.js.org/#/
 
 ## Deployment
+Create a "auth.json" within the root folder, with the layout:
+```
+{
+  "token": "your_discord_bot_token_here"
+}
+```
+
 Run ```node bot.js``` from the folder location in cmd/terminal
 
