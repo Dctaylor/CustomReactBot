@@ -1,4 +1,6 @@
 # CustomReactBot
+## Features
+* Will react to new messages 30% of time using your Discord server's custom emotes.
 
 ## Installation
 
