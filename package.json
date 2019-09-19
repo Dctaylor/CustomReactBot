@@ -1,11 +1,10 @@
 {
-    "name": "custom-emote-reaction",
+    "name": "custom-react-bot",
     "version": "1.0.0",
     "description": "Randomly reacts to posts with a custom server emote",
     "main": "bot.js",
     "author": "David Taylor",
     "dependencies": {
-        "discord.io": "^2.5.3",
         "discord.js": "^11.5.1"
     }
 }
