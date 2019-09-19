@@ -1,6 +1,9 @@
 // require the discord.js module
 const Discord = require('discord.js');
 
+//grab config file
+const auth = require('./auth.json');
+
 // create a new Discord client
 const client = new Discord.Client();
 
@@ -11,7 +14,7 @@ client.once('ready', () => {
 });
 
 // login to Discord with your app's token
-client.login('NjI0MDQ2MTU4MzQ3NzYzNzEy.XYLnHQ.nV6nLCRfjIrlUcKHFXPgXH41QUY');
+client.login(auth.token);
 
 
 //listen for message
