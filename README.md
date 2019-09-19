@@ -14,5 +14,5 @@ Create a "auth.json" within the root folder, with the layout:
 }
 ```
 
-Run ```node bot.js``` from the folder location in cmd/terminal
+Run ```node bot.js``` from the root folder in cmd/terminal
 
