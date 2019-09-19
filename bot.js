@@ -25,10 +25,10 @@ client.on('message', message => {
             emojiList.push(e);
         }
 
-        //get a randomly selected custom emoji
+        //Get a randomly selected custom emoji
         var chosenEmoji = emojiList[Math.floor((Math.random() * 6) - 1)];
 
-        //find the selected emoji by name
+        //Find the selected emoji by name
         const emoji = message.guild.emojis.find(emoji => emoji.name === chosenEmoji);
 
         //React to the message
